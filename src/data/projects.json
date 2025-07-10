@@ -1,0 +1,114 @@
+{
+  "projects": [
+    {
+      "name": "Web Based Accounting System",
+      "description": "A tool to manage personal finances — track transactions, monitor balances, and manage accounts securely.",
+      "image": "/wbas.png",
+      "tags": [
+        "Python",
+        "Flask",
+        "SQLAlchemy",
+        "SQLite",
+        "HTML",
+        "CSS"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Web-Based-Accounting-System",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Blogging Platform",
+      "description": "A web application built for users to create, edit, and publish blog posts. Includes user authentication, rich-text editing, and a clean, responsive interface for reading and managing content.",
+      "image": "/blogproject.png",
+      "tags": [
+        "Python",
+        "SQLAlchemy",
+        "Flask",
+        "HTML",
+        "CSS",
+        "Bootstrap 5"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Blogging-Site",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Taskly-Todo App",
+      "description": "A full-stack todo list application built with Node.js, Express, PostgreSQL, and EJS templates.",
+      "image": "/Taskly.png",
+      "tags": [
+        "EJS",
+        "Javascript",
+        "Node.js",
+        "PostgreSQL",
+        "CSS"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Taskly-A-Simple-To-Do-List-App",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Stock Picker",
+      "description": "A web app that displays real-time stock data to help users explore and track market trends easily.",
+      "image": "/stockpicker.png",
+      "tags": ["Python", "Plotly Dash", "Bootstrap", "yfinance API"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Stock-Picker-Python-Project",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Virtual Drum Kit",
+      "description": "An interactive web app that lets users play drum sounds using keyboard or mouse inputs, built with HTML, CSS, and JavaScript for real-time audio feedback.",
+      "href": "https://abhinandmv.github.io/Virtual-Drum-Kit/",
+      "image": "/virtualdrum.png",
+      "tags": ["HTML", "CSS", "Javascript"],
+      "links": [
+        {
+          "name": "Game",
+          "href": "https://abhinandmv.github.io/Virtual-Drum-Kit/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Virtual-Drum-Kit",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Simon Game",
+      "description": "A modern implementation of the classic Simon electronic memory game. Test and improve your memory by repeating increasingly complex sequences of colors and sounds.",
+      "href": "https://abhinandmv.github.io/Simon-Game/",
+      "image": "/simongame.png",
+      "tags": ["HTML", "CSS", "Javascript / JQuery"],
+      "links": [
+        {
+          "name": "Game",
+          "href": "https://abhinandmv.github.io/Simon-Game/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Simon-Game",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}

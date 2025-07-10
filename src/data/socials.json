@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/abhinand-mv/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/abhinandmv",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:mvabhinandbusiness@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

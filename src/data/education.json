@@ -1,0 +1,37 @@
+{
+  "education": [
+    {
+      "name": "SRM Institute of Science and Technology",
+      "href": "https://www.srmist.edu.in/",
+      "title": "Bachelor of Technology in Computer Science and Engineering",
+      "logo": "/srm.png",
+      "start": "Jul 2023",
+      "end": "May 2027",
+      "description": [
+        "3rd year B.Tech CSE student at SRM IST, Delhi-NCR",
+        "Strong academic record with consistent top performance",
+        "Hands-on experience in full-stack projects and self-hosted tools"
+      ],
+      "links": [
+        {
+          "name": "2nd Year Project",
+          "href": "https://github.com/abhinandmv/Web-Based-Accounting-System",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "St. Francis School Indirapuram",
+      "href": "https://sfsindirapuram.com/",
+      "title": "Higher Secondary (Class 12)",
+      "logo": "/school.png",
+      "start": "Apr 2008",
+      "end": "Mar 2023",
+      "description":[
+        "Graduated Class 12 with 83% from St. Francis School (CBSE)",
+        "Built strong academic foundation in mathematics, computer science",
+        "Actively participated in tech clubs and interschool competitions"
+      ]
+    }
+  ]
+}
