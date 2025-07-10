@@ -33,7 +33,8 @@ export default function ContactForm() {
     const result = await sendEmail(data);
 
     if (result.error) {
-      toast.error("An error occurred! Please try again later.");
+      toast.error("Failed to send. Please try again.");
+      console.error(result.error);
       return;
     }
 
@@ -54,7 +55,7 @@ export default function ContactForm() {
             {...register("name")}
           />
           {errors.name?.message && (
-            <p className="input-error">{errors.name.message}</p>
+            <p className="text-red-500 text-sm">{errors.name.message}</p>
           )}
         </div>
 
@@ -67,9 +68,8 @@ export default function ContactForm() {
             autoComplete="email"
             {...register("email")}
           />
-
           {errors.email?.message && (
-            <p className="input-error">{errors.email.message}</p>
+            <p className="text-red-500 text-sm">{errors.email.message}</p>
           )}
         </div>
 
@@ -78,16 +78,16 @@ export default function ContactForm() {
           <Textarea
             rows={4}
             placeholder="Message"
-            autoComplete="Message"
+            autoComplete="off"
             className="resize-none"
             {...register("message")}
           />
-
           {errors.message?.message && (
-            <p className="input-error">{errors.message.message}</p>
+            <p className="text-red-500 text-sm">{errors.message.message}</p>
           )}
         </div>
       </div>
+
       <div className="mt-2">
         <Button
           type="submit"
@@ -106,11 +106,13 @@ export default function ContactForm() {
             </div>
           )}
         </Button>
+
         <p className="mt-4 text-xs text-muted-foreground">
           By submitting this form, I agree to the{" "}
           <Link href="/privacy" className="link font-semibold">
-            privacy&nbsp;policy.
+            privacy policy
           </Link>
+          .
         </p>
       </div>
     </form>
