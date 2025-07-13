@@ -73,20 +73,14 @@
       ]
     },
     {
-      "name": "Virtual Drum Kit",
-      "description": "An interactive web app that lets users play drum sounds using keyboard or mouse inputs, built with HTML, CSS, and JavaScript for real-time audio feedback.",
-      "href": "https://abhinandmv.github.io/Virtual-Drum-Kit/",
-      "image": "/virtualdrum.png",
-      "tags": ["HTML", "CSS", "Javascript"],
+      "name": "Movie Discovery App",
+      "description": "A modern React movie search app with glassmorphism design, real-time search, and trending movies carousel.",
+      "image": "/movieDiscoveryApp.png",
+      "tags": ["HTML", "CSS", "Javascript", "React", "TMDB API"],
       "links": [
         {
-          "name": "Game",
-          "href": "https://abhinandmv.github.io/Virtual-Drum-Kit/",
-          "icon": "globe"
-        },
-        {
           "name": "Source",
-          "href": "https://github.com/abhinandmv/Virtual-Drum-Kit",
+          "href": "https://github.com/abhinandmv/Movie-Discovery-App",
           "icon": "github"
         }
       ]

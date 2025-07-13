@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Abhinand MV's Portfolio**
 
-## Getting Started
+Welcome to my portfolio! This is a modern, responsive website built with Next.js showcasing my projects and skills. Feel free to explore and reach out if you have any questions or collaboration opportunities.
 
-First, run the development server:
+**🔗 Live Demo**: [abhinandmv-portfolio.vercel.app](https://abhinandmv-portfolio.vercel.app/)
+
+## Table of Contents:
+- [About](#about)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Acknowledgments](#acknowledgments)
+- [Contact Me](#contact-me)
+
+## **About**
+This portfolio website is built with Next.js and Tailwind CSS, featuring a clean and responsive design. It showcases my projects, skills, and experience as a full-stack developer. The site includes sections for featured projects, blog posts, and professional information.
+
+## **Tech Stack**
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Deployment**: Vercel
+- **Font**: Inter (Google Font)
+
+## **Getting Started**
 
 ```bash
+# Clone the repository
+git clone https://github.com/abhinandmv/abhinandmv-portfolio.git
+
+# Navigate to project directory
+cd abhinandmv-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## **Acknowledgments**
+- Thanks to Next.js and Tailwind CSS for the amazing frameworks
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## **Contact Me**
+You can reach me out by..
 
-## Learn More
+**GitHub**: https://github.com/abhinandmv
+**LinkedIn**:https://www.linkedin.com/in/abhinand-mv/
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to connect with me via GitHub or LinkedIn!
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> *Thank you for visiting my portfolio repository.*
