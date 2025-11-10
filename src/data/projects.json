@@ -1,6 +1,19 @@
 {
   "projects": [
     {
+      "name": "AI Clipper and Caption Generator",
+      "description": "An AI-powered video editor that transforms long videos into shareable social media clips. Leverages OpenAI Whisper and Google Gemini to automatically detect highlights, transcribe speech, and generate engaging captions—saving hours of manual editing work.",
+      "image": "/ai-clipper.png",
+      "tags": ["Python", "Next.js", "React", "OpenAI Whisper", "Google Gemini API", "MoviePy", "JavaScript", "AI/ML"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/AI-Clipper-and-Caption-Generator",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Web Based Accounting System",
       "description": "A tool to manage personal finances — track transactions, monitor balances, and manage accounts securely.",
       "image": "/wbas.png",
