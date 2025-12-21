@@ -14,6 +14,26 @@
       ]
     },
     {
+      "name": "Chat With PDF",
+      "description": "An AI-powered document assistant that lets you talk to your PDFs.",
+      "image": "/ChatwithPdf.png",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "Edge Functions",
+        "Gemini API"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Chat-With-Pdf",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Web Based Accounting System",
       "description": "A tool to manage personal finances — track transactions, monitor balances, and manage accounts securely.",
       "image": "/wbas.png",
