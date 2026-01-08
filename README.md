@@ -15,7 +15,7 @@ Welcome to my portfolio! This is a modern, responsive website built with Next.js
 This portfolio website is built with Next.js and Tailwind CSS, featuring a clean and responsive design. It showcases my projects, skills, and experience as a full-stack developer. The site includes sections for featured projects, blog posts, and professional information.
 
 ## **Tech Stack**
-- **Framework**: Next.js 14
+- **Framework**: Next.js 16
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
 - **Deployment**: Vercel
