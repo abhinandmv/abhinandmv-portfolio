@@ -51,7 +51,7 @@ export default async function Home() {
             Full-stack web developer who enjoys building self-hosted projects and exploring clean, scalable code.{" "}
           </p>
           <section className="mt-8 flex items-center gap-8">
-            <Link href="/Resume.pdf" target="_blank">
+            <Link href="/Resume_overleaf.pdf" target="_blank">
               <Button variant="outline">
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />

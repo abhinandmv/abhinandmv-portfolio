@@ -13,22 +13,20 @@
         }
       ]
     },
-    {
-      "name": "Chat With PDF",
-      "description": "An AI-powered document assistant that lets you talk to your PDFs.",
-      "image": "/ChatwithPdf.png",
-      "tags": [
-        "React",
-        "TypeScript",
-        "Supabase",
-        "Tailwind CSS",
-        "Edge Functions",
-        "Gemini API"
-      ],
+      {
+      "name": "Customer Churn Prediction",
+      "description": "A Streamlit ML web app that predicts telecom customer churn in real-time using scikit-learn, with a custom dark-themed UI.",
+      "image": "/customer_churn.png",
+      "tags": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
       "links": [
         {
+          "name": "Live Demo",
+          "href": "https://customerchurnmodel.streamlit.app/",
+          "icon": "globe"
+        },
+        {
           "name": "Source",
-          "href": "https://github.com/abhinandmv/Chat-With-Pdf",
+          "href": "https://github.com/abhinandmv/Customer-Churn-Prediction-Model",
           "icon": "github"
         }
       ]
@@ -69,6 +67,42 @@
         {
           "name": "Source",
           "href": "https://github.com/abhinandmv/Blogging-Site",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Semantic Book Recommender System",
+      "description": "A Streamlit app that uses sentence transformers and vector similarity search to recommend books based on natural language queries and emotional tone.",
+      "image": "/semantic-recommender.png",
+      "tags": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn","huggingface sentence transformers", "Streamlit"],
+      "links": [
+        {
+          "name": "Live Demo",
+          "href": "https://semantic-book-recommender1.streamlit.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Semantic-Book-Recommender",
+          "icon": "github"
+        }
+      ]
+    },
+     {
+      "name": "Movie Recommendation System",
+      "description": "s is a basic Movie Recommendation System built as a learning project to understand recommendation logic, similarity measures, and deploying a machine learning–based app using Streamlit.",
+      "image": "/movie-recommendation.png",
+      "tags": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      "links": [
+        {
+          "name": "Live Demo",
+          "href": "https://movie-recommender-p.streamlit.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/abhinandmv/Movie-Recommendation-System",
           "icon": "github"
         }
       ]
