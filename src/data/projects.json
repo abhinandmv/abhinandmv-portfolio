@@ -12,6 +12,18 @@
           "icon": "github"
         }
       ]
+    },{
+      "name": "Colabsphere",
+      "description": "ColabSphere is a full-stack collaboration platform that connects developers with open-source projects through intelligent project–contributor matching.",
+      "image": "/colabsphere.png",
+      "tags": ["Python", "Node.js", "React", "Express.js", "MongoDB", "Google Cloud", "Firebase"],
+      "links": [
+        {
+          "name": "Live Demo",
+          "href": "https://colabsphere.com/",
+          "icon": "globe"
+        }
+      ]
     },
       {
       "name": "Customer Churn Prediction",
