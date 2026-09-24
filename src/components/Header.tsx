@@ -11,6 +11,14 @@ const navLinks = [
     href: "/projects",
   },
   {
+    name: "certifications",
+    href: "/certifications",
+  },
+  {
+    name: "publications",
+    href: "/publications",
+  },
+  {
     name: "blog",
     href: "/blog",
   },
@@ -24,7 +32,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/75 py-6 backdrop-blur-sm">
       <nav className="flex items-center justify-between">
-        <ul className="flex gap-4 sm:gap-8">
+        <ul className="flex flex-wrap gap-x-4 gap-y-1 sm:gap-x-8">
           {navLinks.map((nav, id) => (
             <li key={id} className="link">
               <Link href={nav.href}>{nav.name}</Link>
