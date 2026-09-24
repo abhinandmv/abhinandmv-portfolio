@@ -43,6 +43,34 @@ const experience = z.object({
 });
 export type Experience = z.infer<typeof experience>;
 
+const certification = z.object({
+  name: z.string(),
+  issuer: z.string(),
+  date: z.string(),
+  description: z.string().optional(),
+  icon: z.custom<keyof typeof dynamicIconImports>().optional(),
+  links: z.array(iconLink).optional(),
+});
+export type Certification = z.infer<typeof certification>;
+export const certificationSchema = z.object({
+  certifications: z.array(certification),
+  achievements: z.array(certification),
+});
+
+const publication = z.object({
+  title: z.string(),
+  venue: z.string(),
+  date: z.string(),
+  role: z.string(),
+  description: z.string(),
+  tags: z.array(z.string()),
+  links: z.array(iconLink),
+});
+export type Publication = z.infer<typeof publication>;
+export const publicationSchema = z.object({
+  publications: z.array(publication),
+});
+
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
 export const socialSchema = z.object({ socials: z.array(iconLink) });

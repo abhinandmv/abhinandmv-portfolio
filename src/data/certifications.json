@@ -1,0 +1,109 @@
+{
+  "certifications": [
+    {
+      "name": "Natural Language Processing",
+      "issuer": "NPTEL",
+      "date": "May 2026",
+      "icon": "award",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://drive.google.com/file/d/1oAEhr8ntSMihZAa7NcWIrQYqUoZ-DD2Q/view?usp=sharing",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "Foundations of Coding Full-Stack",
+      "issuer": "Microsoft",
+      "date": "Jan 2026",
+      "icon": "award",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://coursera.org/share/af784bd7b7261fa5aeb935066be627db",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "EDA for ML",
+      "issuer": "IBM",
+      "date": "Feb 2026",
+      "icon": "award",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://coursera.org/share/033b4c626bc30488fca9a343a15edbf5",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "Python (Basic)",
+      "issuer": "HackerRank",
+      "date": "Oct 2024",
+      "icon": "award",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://www.hackerrank.com/certificates/36065b3b1969",
+          "icon": "external-link"
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "name": "Finalist - India AI Impact Buildathon",
+      "issuer": "HCL GUVI",
+      "date": "Feb 2026",
+      "icon": "trophy",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://www.guvi.in/share-certificate/957H1j660t17Y4U869",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "Participant - Adobe India Hackathon",
+      "issuer": "Adobe",
+      "date": "2025",
+      "icon": "medal",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://unstop.com/certificate-preview/60f9d5c4-72f6-4ebf-820b-f4c688aaba66",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "Participant - Amazon ML Challenge 2025",
+      "issuer": "Amazon",
+      "date": "2025",
+      "icon": "medal"
+    },
+    {
+      "name": "Participant - L'Oréal Sustainability Challenge 2025",
+      "issuer": "L'Oréal",
+      "date": "2025",
+      "icon": "medal",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://unstop.com/certificate-preview/914e4761-21f6-441b-a048-12ca883c31bf",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "Participant - Guidewire DevTrails",
+      "issuer": "Guidewire",
+      "date": "2025",
+      "icon": "medal"
+    }
+  ]
+}

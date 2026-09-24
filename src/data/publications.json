@@ -1,0 +1,19 @@
+{
+  "publications": [
+    {
+      "title": "Enhanced Compression Model (ECM): A Hyperprior-Based Neural Image Compression Framework",
+      "venue": "IEEE Xplore, presented at INSTCon 2026, NIT Rourkela",
+      "date": "Jul 2026",
+      "role": "1st Author",
+      "description": "Extended a Scale Hyperprior VAE architecture with semantic gating, channel attention, autoregressive context modelling, an entropy parameter network, and scale refinement. Achieved **0.176 BPP**, **30.882 dB PSNR**, and **0.985 MS-SSIM** on the Kodak benchmark, outperforming the Scale Hyperprior baseline and classical codecs (JPEG, WebP) at comparable or lower bitrates.",
+      "tags": ["Neural Compression", "VAE", "Deep Learning", "Computer Vision"],
+      "links": [
+        {
+          "name": "IEEE Xplore",
+          "href": "https://ieeexplore.ieee.org/document/11691942",
+          "icon": "file-text"
+        }
+      ]
+    }
+  ]
+}

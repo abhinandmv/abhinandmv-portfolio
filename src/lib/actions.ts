@@ -24,10 +24,10 @@ export async function sendEmail(data: ContactFormInputs) {
     const { name, email, message } = result.data;
 
     const { data: emailData, error } = await resend.emails.send({
-      from: "onboarding@resend.dev", // Use verified domain in production
+      // Display name is the visitor's; the address must stay on a domain verified with Resend.
+      from: `${name.replace(/[<>"\r\n]/g, "").trim()} <onboarding@resend.dev>`,
       to: "mvabhinand2005@gmail.com",
       replyTo: [email],
-      cc: [email],
       subject: `New message from ${name}!`,
       text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
     });
