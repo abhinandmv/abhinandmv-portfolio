@@ -1,6 +1,19 @@
 {
   "certifications": [
     {
+      "name": "Agentic AI Certified Foundations Associate",
+      "issuer": "Oracle",
+      "date": "Sep 2026",
+      "icon": "award",
+      "links": [
+        {
+          "name": "Verify",
+          "href": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=55906A32B8E499A04334BAE5C02B2BD0346CB12D7334276D858E46D66EFBEC69",
+          "icon": "badge-check"
+        }
+      ]
+    },
+    {
       "name": "Natural Language Processing",
       "issuer": "NPTEL",
       "date": "May 2026",
@@ -36,6 +49,34 @@
           "name": "Certificate",
           "href": "https://coursera.org/share/033b4c626bc30488fca9a343a15edbf5",
           "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "Data Analytics Job Simulation",
+      "issuer": "Deloitte (Forage)",
+      "date": "Jun 2025",
+      "icon": "briefcase",
+      "description": "Virtual job simulation covering data analysis and forensic technology tasks.",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://drive.google.com/file/d/1EloBvD-f9Lc8VE3hx5x_tfr7mPISWArT/view?usp=sharing",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "The Complete Full-Stack Web Development Bootcamp",
+      "issuer": "Udemy",
+      "date": "May 2025",
+      "icon": "graduation-cap",
+      "description": "61.5-hour course taught by Dr. Angela Yu.",
+      "links": [
+        {
+          "name": "Verify",
+          "href": "https://www.udemy.com/certificate/UC-04069170-4124-48da-818b-c1b6439fdbf0/",
+          "icon": "badge-check"
         }
       ]
     },
@@ -103,7 +144,28 @@
       "name": "Participant - Guidewire DevTrails",
       "issuer": "Guidewire",
       "date": "2025",
-      "icon": "medal"
+      "icon": "medal",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://drive.google.com/file/d/1T4eyhMrFiHlbOfQmRBNNXsSCa46LS-Sg/view?usp=sharing",
+          "icon": "external-link"
+        }
+      ]
+    },
+    {
+      "name": "Volunteer - Education and Women's Empowerment",
+      "issuer": "Dr. A.V. Baliga Memorial Trust",
+      "date": "Jun - Jul 2025",
+      "icon": "heart-handshake",
+      "description": "Volunteered on education projects for at-risk children and women's empowerment in Mangolpuri, Delhi.",
+      "links": [
+        {
+          "name": "Certificate",
+          "href": "https://drive.google.com/file/d/1bbfoPGwysy8ey61I-nsGIjSmjRdkT5mv/view?usp=sharing",
+          "icon": "external-link"
+        }
+      ]
     }
   ]
 }
