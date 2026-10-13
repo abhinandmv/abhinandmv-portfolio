@@ -25,7 +25,7 @@ export default async function Home() {
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
-          className="rounded-lg"
+          className="rounded-2xl shadow-lg ring-1 ring-white/40"
           src="/abhinand.jpg"
           alt="Photo of Abhinand"
           width={175}
@@ -51,7 +51,7 @@ export default async function Home() {
             Full-stack web developer who enjoys building self-hosted projects and exploring clean, scalable code.{" "}
           </p>
           <section className="mt-8 flex items-center gap-8">
-            <Link href="/Resume_2.pdf" target="_blank">
+            <Link href="/Abhinand_Resume.pdf" target="_blank">
               <Button variant="outline">
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />
