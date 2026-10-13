@@ -32,6 +32,11 @@ export default function RootLayout({
           calistoga.variable,
         )}
       >
+        <div aria-hidden="true" className="liquid-bg">
+          <span />
+          <span />
+          <span />
+        </div>
         <Providers>
           <Header />
           <main className="grow">{children}</main>

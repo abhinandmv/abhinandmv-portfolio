@@ -29,7 +29,7 @@ export function ProjectCard({ project }: Props) {
               alt={name}
               width={500}
               height={300}
-              className="h-40 w-full object-cover object-top"
+              className="h-40 w-full rounded-xl object-cover object-top"
             />
           </Link>
         )}

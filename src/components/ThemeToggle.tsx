@@ -14,13 +14,14 @@ export default function ThemeToggle() {
   }, []);
 
   if (!mounted) {
-    return null;
+    return <div className="size-9" />;
   }
 
   return (
     <Button
       size="icon"
       variant="ghost"
+      className="rounded-full"
       onClick={() => {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
       }}
