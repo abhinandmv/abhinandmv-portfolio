@@ -13,13 +13,13 @@ export default function TimelineItem({ experience }: Props) {
     experience;
 
   return (
-    <li className="relative ml-10 py-4">
+    <li className="relative ml-8 py-4 sm:ml-10">
       <Link
         href={href}
         target="_blank"
-        className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white"
+        className="absolute -left-[52px] top-4 flex items-center justify-center rounded-full bg-white sm:-left-16"
       >
-        <Avatar className="size-12 border">
+        <Avatar className="size-10 border sm:size-12">
           <AvatarImage
             src={logo}
             alt={name}
@@ -41,7 +41,7 @@ export default function TimelineItem({ experience }: Props) {
         {description && (
           <ul className="ml-4 list-outside list-disc">
             {description.map((desc, i) => (
-              <li key={i} className="prose pr-8 text-sm dark:prose-invert">
+              <li key={i} className="prose pr-4 text-sm dark:prose-invert sm:pr-8">
                 {desc}
               </li>
             ))}
