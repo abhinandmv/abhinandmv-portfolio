@@ -202,7 +202,7 @@
     @apply bg-background text-foreground;
   }
   .title {
-    @apply font-serif text-5xl tracking-wide decoration-border/75 decoration-2;
+    @apply break-words font-serif text-4xl tracking-wide decoration-border/75 decoration-2 sm:text-5xl;
   }
   .link {
     @apply text-muted-foreground transition-colors hover:text-foreground;

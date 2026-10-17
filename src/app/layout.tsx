@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "mx-auto flex min-h-screen max-w-3xl flex-col px-8 font-sans antialiased",
+          "mx-auto flex min-h-screen max-w-3xl flex-col px-5 font-sans antialiased sm:px-8",
           inter.variable,
           calistoga.variable,
         )}
