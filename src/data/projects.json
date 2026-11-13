@@ -13,6 +13,23 @@
         }
       ]
     },{
+      "name": "OweLess",
+      "description": "OweLess is an Android app for splitting shared expenses with friends, flatmates and travel groups. Each share of each expense is settled on its own, recurring bills are added automatically, and in India you can pay through your UPI app. Every rule is enforced on the server.",
+      "image": "/oweless.png",
+      "tags": ["Kotlin", "Jetpack Compose", "Supabase", "PostgreSQL", "Firebase", "ML Kit", "Hilt", "Room"],
+      "links": [
+        {
+          "name": "Google Play",
+          "href": "https://play.google.com/store/apps/details?id=com.pairbyte.oweless",
+          "icon": "globe"
+        },
+        {
+          "name": "Website",
+          "href": "https://theoweless.com/",
+          "icon": "globe"
+        }
+      ]
+    },{
       "name": "Colabsphere",
       "description": "ColabSphere is a full-stack collaboration platform that connects developers with open-source projects through intelligent project–contributor matching.",
       "image": "/colabsphere.png",
