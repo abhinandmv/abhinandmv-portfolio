@@ -74,3 +74,30 @@ export const publicationSchema = z.object({
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
 export const socialSchema = z.object({ socials: z.array(iconLink) });
+
+const product = z.object({
+  slug: z.string(),
+  name: z.string(),
+  tagline: z.string(),
+  description: z.string(),
+  platform: z.string(),
+  icon: z.string(),
+  image: z.string().optional(),
+  /** Until a product is released its pages stay unlisted: not in /products and not indexed. */
+  released: z.boolean(),
+  links: z.array(iconLink),
+  features: z.array(z.string()),
+  /** A privacy policy hosted here, at /products/<slug>/privacy… */
+  privacy: z
+    .object({
+      lastUpdated: z.string(),
+      sections: z.array(z.object({ heading: z.string(), body: z.string() })),
+    })
+    .optional(),
+  /** …or one on the product's own website. */
+  privacyUrl: z.string().url().optional(),
+  /** Where to get help; the site's contact page when not set. */
+  supportUrl: z.string().url().optional(),
+});
+export const productSchema = z.object({ products: z.array(product) });
+export type Product = z.infer<typeof product>;

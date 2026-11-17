@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "slug": "oweless",
+      "name": "OweLess",
+      "tagline": "Split shared expenses, settle each share",
+      "description": "OweLess is an Android app for splitting shared expenses with friends, flatmates and travel groups. Each share of each expense is settled on its own, recurring bills are added automatically, and in India you can pay through your UPI app. Every rule is enforced on the server.",
+      "platform": "Android",
+      "icon": "/oweless-icon.png",
+      "image": "/oweless.png",
+      "released": true,
+      "links": [
+        {
+          "name": "Google Play",
+          "href": "https://play.google.com/store/apps/details?id=com.pairbyte.oweless",
+          "icon": "globe"
+        },
+        {
+          "name": "Website",
+          "href": "https://theoweless.com/",
+          "icon": "globe"
+        }
+      ],
+      "features": [
+        "Split shared expenses with friends, flatmates and travel groups",
+        "Each share of each expense is settled on its own",
+        "Recurring bills are added automatically",
+        "Pay through your UPI app in India"
+      ],
+      "privacyUrl": "https://theoweless.com/privacy",
+      "supportUrl": "https://theoweless.com/contact"
+    },
+    {
+      "slug": "dynook",
+      "name": "Dynook",
+      "tagline": "Live activities for your notch",
+      "description": "Dynook turns the notch on your MacBook into a quiet home for what's happening right now. Timers, music, calls and meetings appear beside the camera while they're live, then tuck away. Click the notch for a frosted-glass panel of handy tools.",
+      "platform": "macOS 14 Sonoma or later. Made for MacBooks with a notch; on other Macs it sits at the top of the screen as a small pill.",
+      "icon": "/dynook-icon.png",
+      "image": "/dynook.png",
+      "released": false,
+      "links": [],
+      "features": [
+        "Timers, stopwatch and Focus sessions with a countdown beside the notch",
+        "Now Playing for Apple Music and Spotify, glowing in the colours of the album art",
+        "Meeting heads-up with one-click Join for Zoom, Meet, Teams, Webex and FaceTime",
+        "Shelf: drop files on the notch, then drag them out, AirDrop, zip or merge them",
+        "Clipboard history, quick notes, calendar and reminders a click away",
+        "Works with Shortcuts, and no account, ads or analytics"
+      ],
+      "privacy": {
+        "lastUpdated": "November 2026",
+        "sections": [
+          {
+            "heading": "The short version",
+            "body": "Dynook doesn't collect any personal data. There's no account, no analytics, no ads and no tracking, and nothing you do in Dynook is sent to me."
+          },
+          {
+            "heading": "What stays on your Mac",
+            "body": "Your notes, clipboard history, Shelf files and settings are stored only on your Mac, inside Dynook's own storage. They're never uploaded anywhere. Deleting Dynook removes them."
+          },
+          {
+            "heading": "Permissions",
+            "body": "Dynook asks for each permission only when you first use the feature that needs it, and every other feature keeps working if you say no.\n\n- **Calendars and Reminders**: to show your next event, meeting heads-ups and today's reminders. Read on your Mac only.\n- **Spotify and Music**: to show what's playing and to play, pause and skip. Dynook only talks to them while they're already open.\n- **Files you drop or choose, and your Downloads folder**: for the Shelf and download alerts.\n- **Clipboard**: for clipboard history, which is off until you turn it on. Items that apps mark as private, such as passwords, are skipped. Text in copied images is read on your Mac.\n- **Microphone**: Dynook only checks *whether* an app is using the microphone, to show calls. It never records or listens."
+          },
+          {
+            "heading": "When Dynook goes online",
+            "body": "Only to fetch album art for the song that's playing:\n\n- **Spotify**: the track's ID is sent to open.spotify.com.\n- **Apple Music**: for songs without their own artwork, the song title and artist are sent to Apple's iTunes Search (itunes.apple.com).\n\nAs with any web request, those services also see your IP address. Their own privacy policies apply. Nothing is sent to me, and nothing else leaves your Mac."
+          },
+          {
+            "heading": "Children",
+            "body": "Dynook doesn't collect personal data from anyone, including children."
+          },
+          {
+            "heading": "Changes",
+            "body": "If this policy changes, the updated version will be on this page with a new date."
+          },
+          {
+            "heading": "Contact",
+            "body": "Questions about privacy or Dynook? Reach me through the [contact page](/contact)."
+          }
+        ]
+      }
+    }
+  ]
+}
