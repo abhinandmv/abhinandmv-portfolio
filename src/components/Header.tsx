@@ -18,10 +18,6 @@ const navLinks = [
     href: "/projects",
   },
   {
-    name: "products",
-    href: "/products",
-  },
-  {
     name: "certifications",
     href: "/certifications",
   },
@@ -32,6 +28,10 @@ const navLinks = [
   {
     name: "blog",
     href: "/blog",
+  },
+  {
+    name: "products",
+    href: "/products",
   },
   {
     name: "contact",
