@@ -57,7 +57,11 @@
           },
           {
             "heading": "What stays on your Mac",
-            "body": "Your notes, clipboard history, Shelf files, saved Pomodoro timers, Shortcut widgets and settings are stored only on your Mac, inside Dynook's own storage. They're never uploaded anywhere. Deleting Dynook removes them.\n\nIn Dynook Direct, Claude Code permission prompts travel over a private connection on your Mac only."
+            "body": "Your notes, clipboard history, Shelf files, saved Pomodoro timers, Shortcut widgets, recent Color Picker colors and settings are stored only on your Mac, inside Dynook's own storage. They're never uploaded anywhere. Deleting Dynook removes them.\n\nColor Picker uses the macOS color picker. Dynook receives only the color you choose and doesn't record your screen."
+          },
+          {
+            "heading": "Coding agents in Dynook Direct",
+            "body": "Dynook Direct can work with Claude Code, Codex, Gemini CLI and Cursor. This is off until you turn it on, and it isn't part of the App Store version.\n\n- **What Dynook adds**: a small hook in the settings file of each tool you turn on, with a backup of an existing file saved next to it. Turning a tool off removes the hook. Use Remove All Hooks before deleting Dynook.\n- **What Dynook sees**: depending on the tool, permission requests, Claude Code's questions and choices, project folder names, and when a tool finishes. Requests can include commands and file paths.\n- **Where it goes**: this travels over a private connection on your Mac so it can appear in the notch. Dynook doesn't save it or send it to me.\n- **Your answers**: Allow, Deny, Skip and answers to questions go back to the tool you're using. That tool's own privacy policy covers what it does with them."
           },
           {
             "heading": "Permissions",
