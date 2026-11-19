@@ -94,6 +94,10 @@ const product = z.object({
       sections: z.array(z.object({ heading: z.string(), body: z.string() })),
     })
     .optional(),
+  /** Longer how-to sections shown on the product page, in Markdown. */
+  guides: z
+    .array(z.object({ heading: z.string(), intro: z.string().optional(), body: z.string() }))
+    .optional(),
   /** …or one on the product's own website. */
   privacyUrl: z.string().url().optional(),
   /** Where to get help; the site's contact page when not set. */

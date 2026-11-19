@@ -6,6 +6,7 @@ import { ArrowLeftIcon } from "@radix-ui/react-icons";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Markdown from "react-markdown";
 import { notFound } from "next/navigation";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -74,6 +75,16 @@ export default async function ProductPage({ params }: Props) {
         </ul>
         <p className="text-sm text-muted-foreground">{product.platform}</p>
       </section>
+
+      {product.guides?.map((guide) => (
+        <section key={guide.heading} className="flex flex-col gap-3">
+          <h2 className="title text-2xl">{guide.heading}</h2>
+          {guide.intro && <p>{guide.intro}</p>}
+          <div className="prose max-w-none dark:prose-invert">
+            <Markdown>{guide.body}</Markdown>
+          </div>
+        </section>
+      ))}
 
       <footer className="flex flex-wrap gap-4 text-sm">
         {(product.privacy || product.privacyUrl) && (

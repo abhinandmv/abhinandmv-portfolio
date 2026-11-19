@@ -88,7 +88,14 @@
             "body": "Questions about privacy or Dynook? Reach me through the [contact page](/contact)."
           }
         ]
-      }
+      },
+      "guides": [
+        {
+          "heading": "make your own shortcuts.",
+          "intro": "Dynook adds its own actions to the Shortcuts app, so you can put almost anything in your notch: weather, prices, scores, your Home accessories, or a message when a long task finishes.",
+          "body": "### Dynook's actions\n\n- **Set Dynook Widget**: adds or updates a card on Home, and can refresh it on a schedule\n- **Remove Dynook Widget**: removes one card, or all of them\n- **Start Live Activity**: shows something in the notch, with an optional countdown\n- **Update Live Activity**: changes a live activity's text or progress\n- **End Live Activity**: removes it from the notch\n- **Show Alert in Notch**: pops a short message out of the notch\n\n### Example: a weather card\n\n1. Open **Shortcuts** and create a new shortcut named **My Weather**.\n2. Add **Get Current Weather**.\n3. Add **Get Details of Weather Conditions** and choose **Temperature**.\n4. Add Dynook's **Set Dynook Widget**. Set **Title** to *Weather* and **Value** to the temperature.\n5. To keep it current, set **Shortcut to Refresh** to *My Weather* and **Refresh Every** to *30*.\n6. Run the shortcut once.\n7. In Dynook, open **Settings › General › Home** and choose **Shortcut Widgets** for one of the cards.\n\n### Tips\n\n- **Shortcut to Refresh** must match the shortcut's name exactly, or the card can't update itself.\n- To get a message when any shortcut finishes, add **Show Alert in Notch** as its last step.\n- Turn on **Pop Out of the Notch** in **Set Dynook Widget** to see a card briefly at the notch when its value changes.\n- Whatever your shortcuts fetch is fetched by Shortcuts itself. Dynook only shows the result."
+        }
+      ]
     }
   ]
 }
