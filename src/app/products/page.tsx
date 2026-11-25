@@ -29,6 +29,9 @@ export default function ProductsPage() {
               <div>
                 <h2 className="font-semibold">{product.name}</h2>
                 <p className="text-sm text-muted-foreground">{product.tagline}</p>
+                {product.links.length === 0 && (
+                  <p className="mt-1 text-xs font-medium text-muted-foreground">Coming soon to the Mac App Store</p>
+                )}
               </div>
             </Link>
           ))}

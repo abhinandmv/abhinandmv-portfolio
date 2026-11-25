@@ -34,18 +34,19 @@
       "slug": "dynook",
       "name": "Dynook",
       "tagline": "Live activities for your notch",
-      "description": "Dynook turns the notch on your MacBook into a quiet home for what's happening right now. Timers, music, calls and meetings appear beside the camera while they're live, then tuck away. Click the notch for a frosted-glass panel of handy tools.",
-      "platform": "macOS 14 Sonoma or later. Made for MacBooks with a notch; on other Macs it sits at the top of the screen as a small pill.",
+      "description": "Dynook turns the notch on your MacBook into a quiet home for what's happening right now. Timers, music, calls and meetings appear beside the camera while they're live, then tuck away. Click the notch for a panel of handy tools.",
+      "platform": "macOS 14 Sonoma or later. Made for MacBooks with a notch; on other Macs it sits at the top of the screen as a small pill. A one-time purchase with no subscription. Not available in EU countries yet.",
       "icon": "/dynook-icon.png",
       "image": "/dynook.png",
-      "released": false,
+      "released": true,
       "links": [],
       "features": [
         "Timers, stopwatch and Focus sessions with a countdown beside the notch",
-        "Now Playing for Apple Music and Spotify, glowing in the colours of the album art",
+        "Now Playing for Apple Music and Spotify, glowing in the colours of the album art, with a volume slider",
         "Meeting heads-up with one-click Join for Zoom, Meet, Teams, Webex and FaceTime",
         "Shelf: drop files on the notch, then drag them out, AirDrop, zip or merge them",
         "Clipboard history, quick notes, calendar and reminders a click away",
+        "Color Picker: pick any color on your screen and copy it as hex or RGB",
         "Works with Shortcuts, and no account, ads or analytics"
       ],
       "privacy": {
