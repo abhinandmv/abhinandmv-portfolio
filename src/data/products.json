@@ -4,16 +4,21 @@
       "slug": "oweless",
       "name": "OweLess",
       "tagline": "Split shared expenses, settle each share",
-      "description": "OweLess is an Android app for splitting shared expenses with friends, flatmates and travel groups. Each share of each expense is settled on its own, recurring bills are added automatically, and in India you can pay through your UPI app. Every rule is enforced on the server.",
-      "platform": "Android",
+      "description": "OweLess is an iPhone and Android app for splitting shared expenses with friends, flatmates and travel groups. Each share of each expense is settled on its own, recurring bills are added automatically, and in India you can pay through your UPI app. Every rule is enforced on the server.",
+      "platform": "iPhone and Android",
       "icon": "/oweless-icon.png",
       "image": "/oweless.png",
       "released": true,
       "links": [
         {
+          "name": "App Store",
+          "href": "https://apps.apple.com/us/app/oweless-split-expenses/id6834929835",
+          "icon": "appstore"
+        },
+        {
           "name": "Google Play",
           "href": "https://play.google.com/store/apps/details?id=com.pairbyte.oweless",
-          "icon": "globe"
+          "icon": "playstore"
         },
         {
           "name": "Website",

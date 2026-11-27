@@ -1,5 +1,6 @@
 import Icon from "@/components/Icon";
 import LinkWithIcon from "@/components/LinkWithIcon";
+import { storeIcons } from "@/components/StoreIcons";
 import { Badge } from "@/components/ui/Badge";
 import { getProduct, getProducts, robotsFor } from "@/lib/products";
 import { ArrowLeftIcon } from "@radix-ui/react-icons";
@@ -46,7 +47,7 @@ export default async function ProductPage({ params }: Props) {
           product.links.map((link) => (
             <Link key={link.href} href={link.href} target="_blank">
               <Badge className="flex gap-2 px-3 py-1.5">
-                <Icon name={link.icon} className="size-4" />
+                {storeIcons[link.icon] ?? <Icon name={link.icon} className="size-4" />}
                 {link.name}
               </Badge>
             </Link>
